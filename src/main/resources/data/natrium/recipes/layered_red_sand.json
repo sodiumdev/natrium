@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_sand"
+    }
+  ],
+  "result": {
+    "item": "natrium:layered_red_sand",
+    "count": 8
+  }
+}

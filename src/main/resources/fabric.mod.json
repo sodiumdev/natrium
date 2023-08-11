@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "natrium",
+  "version": "${version}",
+  "name": "Natrium",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/sodiumdev/Natrium"
+  },
+  "license": "MIT",
+  "icon": "assets/Natrium/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "zip.sodium.natrium.client.NatriumClient"
+    ],
+    "main": [
+      "zip.sodium.natrium.Natrium"
+    ]
+  },
+  "mixins": [
+    "natrium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

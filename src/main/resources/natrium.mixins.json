@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "zip.sodium.natrium.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BSMGMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
