@@ -103,7 +103,6 @@ public class CubeEntity extends Entity implements Holdable, Ownable {
         if (!getWorld().isClient)
             toggleHolder((PlayerEntity) attacker);
 
-        SectionPos
         return false;
     }
 
@@ -116,7 +115,6 @@ public class CubeEntity extends Entity implements Holdable, Ownable {
     public ActionResult interact(PlayerEntity player, Hand hand) {
         if (!getWorld().isClient)
             toggleHolder(player);
-        EntityPhysicsElement
 
         return ActionResult.PASS;
     }
