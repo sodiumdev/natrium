@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "result": {
+    "item": "natrium:layered_gravel",
+    "count": 8
+  }
+}

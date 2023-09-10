@@ -4,9 +4,17 @@
   "package": "zip.sodium.natrium.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "BSMGMixin"
+    "BrushableBlockEntityMixin",
+    "BrushableBlockMixin",
+    "BrushItemMixin",
+    "BSMGMixin",
+    "FallingBlockEntityMixin",
+    "SnowBlockMixin"
   ],
   "client": [
+    "HeldItemFeatureRendererMixin",
+    "MainMixin",
+    "RotationAxisMixin"
   ],
   "injectors": {
     "defaultRequire": 1

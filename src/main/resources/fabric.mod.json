@@ -9,7 +9,7 @@
     "repo": "https://github.com/sodiumdev/Natrium"
   },
   "license": "MIT",
-  "icon": "assets/Natrium/icon.png",
+  "icon": "assets/natrium/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
